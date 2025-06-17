@@ -65,38 +65,7 @@ The `Complex Queries.sql` file contains more advanced SQL queries that often inv
 - Identifying high-value customers by total data and call usage.
 - Determining the top 2 towers by total data transferred in a specific period.
 
-## ER Diagrams
 
-The repository includes ER diagrams that visually represent the relationships between the different tables in the `telecom_provider` database.
-
-- `Screenshot 2025-06-16 at 11.12.43 AM.png`
-- `Screenshot 2025-06-16 at 11.12.53 AM.png`
-
-These diagrams were generated using MySQL Workbench and provide a clear overview of the database structure.
-
-## Getting Started
-
-To set up this project locally:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/telecom-database-project.git](https://github.com/your-username/telecom-database-project.git)
-    cd telecom-database-project
-    ```
-2.  **Create the database and schema:**
-    * Open your MySQL client (e.g., MySQL Workbench, command line).
-    * Execute the `Database Implementation.sql` script to create the `telecom_provider` database and its tables.
-    ```sql
-    SOURCE path/to/your/Database Implementation.sql;
-    ```
-3.  **Populate with sample data:**
-    * Execute the `Sample Data.sql` script to insert sample records into the tables.
-    ```sql
-    USE telecom_provider;
-    SOURCE path/to/your/Sample Data.sql;
-    ```
-4.  **Run queries:**
-    * You can now execute the queries from `Basic Queries.sql` and `Complex Queries.sql` against the `telecom_provider` database.
 
 ## Technologies Used
 
